@@ -3208,6 +3208,20 @@ input, select, textarea {
 					display: none;
 				}
 
+			#header .cmc-link {
+				color: #ffffff;          /* change to your preferred color */
+				border-bottom: none;     /* optional: removes underline effect used by the template */
+				}
+
+				#header .cmc-link:hover {
+				opacity: 0.85;           /* subtle hover feedback */
+				}
+			#one a.pinterest-link {
+				font-weight: 600;
+				border-bottom: none; /* removes the template underline */
+				}
+
+
 		/* Footer */
 
 			#footer .copyright li {
