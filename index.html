@@ -11,6 +11,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			const btn = document.getElementById("toggle-more");
+			const more = document.getElementById("more-text");
+
+			if (!btn || !more) return;
+
+			btn.addEventListener("click", function (e) {
+			e.preventDefault();
+
+			const isHidden = more.style.display === "none" || more.style.display === "";
+			more.style.display = isHidden ? "block" : "none";
+			btn.textContent = isHidden ? "Read Less" : "Learn More";
+			});
+		});
+	</script>
+
 	<body class="is-preload">
 
 		<!-- Header -->
