@@ -2174,8 +2174,11 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 2px #efefef;
-				padding: 0.5em 0;
+			margin: 1.25rem 0;
+			padding: 0.9rem 1rem;
+			border-left: 4px solid rgba(0,0,0,0.25);
+			background: rgba(0,0,0,0.03);
+			border-radius: 8px;
 			}
 
 				ul.alt li:first-child {
